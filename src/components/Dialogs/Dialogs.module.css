@@ -1,0 +1,28 @@
+.dialogs {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+}
+
+.dialogsItems .dialog {
+  padding: 0px;
+}
+
+.dialogsItems .active {
+    color: ghostwhite;
+}
+
+.messages {
+  padding: 0px;
+}
+
+.messages .message {
+    color: aliceblue;
+}
+
+.newPost {
+    padding: 5px;
+}
+
+.addPost {
+    padding-top: 5px;
+}

@@ -1,0 +1,22 @@
+.selectedPage{
+    font-weight: bold;
+}
+
+.paginator {
+    /*margin: 10px;*/
+    text-align: center;
+    color: black;
+    padding: 8px 16px;
+    margin: 0 4px;
+    font-size: 18px;
+    background-color: beige;
+}
+
+.pageNumber {
+    padding: 4px;
+}
+
+.pageNumber.selectedPage{
+    font-weight: bold;
+    border-color: black;
+}
