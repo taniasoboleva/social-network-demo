@@ -15,7 +15,7 @@ import withRouter from "react-router-dom/es/withRouter";
 import {initializeApp} from "./redux/app-reducer";
 import Preloader from "./components/common/Preloader/Preloader";
 import store from "./redux/redux-store";
-import {BrowserRouter} from "react-router-dom";
+import {HashRouter} from "react-router-dom";
 import {withSuspense} from "./hoc/withSuspense";
 
 // import DialogsContainer from "./components/Dialogs/DialogsContainer";
@@ -71,11 +71,11 @@ let AppContainer = compose(
     connect(mapStateToProps, {initializeApp}))(App);
 
 const SamuraiJSApp = (props) => {
-    return <BrowserRouter basename={process.env.PUBLIC_URL}>
+    return <HashRouter basename={process.env.PUBLIC_URL}>
         <Provider store={store}>
             <AppContainer/>
         </Provider>
-    </BrowserRouter>
+    </HashRouter>
 }
 
 export default SamuraiJSApp;
