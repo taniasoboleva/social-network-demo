@@ -1,7 +1,7 @@
 {
   "name": "react-1",
   "version": "0.1.0",
-  "homepage": "https://taniasoboleva.github.io/social-network-demo/",
+  "homepage": "https://taniasoboleva.github.io/social-network-demo",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
@@ -27,7 +27,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
